@@ -19,7 +19,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Survival Game</h3>
+  <h3 align="center">Survial Game</h3>
 
   <p align="center">
     A simple (little?) multiplayer survival game made in Unity. 
