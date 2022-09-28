@@ -11,7 +11,6 @@ public class NetworkManager {
     private AsyncClient _client;
     private EventHandler _handler;
     public static NetworkManager INSTANCE;
-
     public NetworkManager(NetworkHUD hud) {
         INSTANCE = this;
         this.networkHUD = hud;
