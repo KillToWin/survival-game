@@ -8,6 +8,6 @@ using Survival_Game_Server.Packet.data;
         public void OnClientInput(PacketEventArgs args)
         {
             ClientInputPacketData data = (ClientInputPacketData) args.Packet.Data;
-            Console.WriteLine(data.movement.ToString());
+            Console.WriteLine(data.movesment.ToString());
         }
     }
