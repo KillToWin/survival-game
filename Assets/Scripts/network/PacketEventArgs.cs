@@ -1,4 +1,4 @@
 ﻿public class PacketEventArgs
 {
-    public Packet Packet { get; set; }
+    public Packets Packet { get; set; }
 }
