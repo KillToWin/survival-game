@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 
 
-    public class EventHandler
+    public class EentHandler
     {
         private static Dictionary<PacketType, HashSet<Action<PacketEventArgs>>> yes = new Dictionary<PacketType, HashSet<Action<PacketEventArgs>>>();
         
