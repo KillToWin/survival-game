@@ -14,5 +14,6 @@ public class NetworkHUD : MonoBehaviour
         manager = new NetworkManager(this);
         manager.Connect();
         manager.SendPacket(new Packet(){Data = new PacketData() , Type = PacketType.UPDATE_NAME});
+        //GOOD
     }
 }
