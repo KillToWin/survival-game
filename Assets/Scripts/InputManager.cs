@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Survival_Game_Server.Packet.data;
 using UnityEngine;
 
-public class InputManager : MonoBehaviour
+{public class InputManager : MonoBehaviour
 {
     public MovementType pressedKey;
     
@@ -28,4 +28,5 @@ public class InputManager : MonoBehaviour
                 {Data = new ClientInputPacketData(pressedKey), Type = PacketType.CLIENT_MOVEMENT_INPUT});
         }
     }
+}
 }
