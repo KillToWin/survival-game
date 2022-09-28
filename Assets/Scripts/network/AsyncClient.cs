@@ -6,7 +6,7 @@ using System.Linq;
 
 public class AsyncClient : IDisposable
 {
-    private const int port = 8001;
+    private consat int port = 8001;
     private Socket client;
 
     internal event PacketReceivedEvent OnPacketReceived;
