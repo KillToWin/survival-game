@@ -7,7 +7,7 @@ public class MessageHandler : MonoBehaviour
     public Button button;
     public InputField field;
     // Use this for initialization
-    void Start()
+    voidStart()
     {
 
     }
